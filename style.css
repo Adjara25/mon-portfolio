@@ -572,3 +572,56 @@ img {
         font-size: 2rem;
     }
 }
+
+/* ===== FORCE DESKTOP VERSION ===== */
+@media (max-width: 768px) {
+    body {
+        min-width: 1200px;
+        overflow-x: auto;
+    }
+    
+    .burger {
+        display: none !important;
+    }
+
+    .nav-links {
+        position: static !important;
+        right: auto !important;
+        flex-direction: row !important;
+        width: auto !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr 2fr !important;
+    }
+
+    .stats {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .hero h1 {
+        font-size: 5rem !important;
+    }
+
+    .hero h2 {
+        font-size: 2rem !important;
+    }
+
+    .section-title {
+        font-size: 3rem !important;
+    }
+}
