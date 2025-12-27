@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&H - Développeur Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><img src="348s.png" alt="" /></div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>H&H</h1>
+            <h2>Développeur Web Full Stack</h2>
+            <p>Création d'expériences web modernes et performantes</p>
+            <a href="#projets" class="btn-primary">Voir nos projets</a>
+        </div>
+        <div class="hero-animation">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À propos de nous</h2>
+                    <p>Passionnés par le développement web depuis plusieurs années, Nous créons des applications web modernes, responsives et performantes. Notre expertise couvre l'ensemble du stack technologique, du front-end au back-end.</p>
+                    <p>Nous nous efforçons de transformer des idées créatives en solutions digitales innovantes, en accordant une attention particulière à l'expérience utilisateur et aux meilleures pratiques de développement.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>30+</h3>
+                            <p>Projets réalisés</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Années d'expérience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Clients satisfaits</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nos Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Projet 1">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Application de visualisation de données en temps réel avec graphiques interactifs</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop" alt="Projet 2">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Plateforme de vente en ligne complète avec paiement sécurisé et gestion des stocks</p>
+                        <div class="tags">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Projet 3">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Network App</h3>
+                        <p>Application sociale avec messagerie instantanée et partage de contenus multimédia</p>
+                        <div class="tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Projet 4">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio CMS</h3>
+                        <p>Système de gestion de contenu pour créer des portfolios personnalisés</p>
+                        <div class="tags">
+                            <span>Next.js</span>
+                            <span>Strapi</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" alt="Projet 5">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager Pro</h3>
+                        <p>Gestionnaire de tâches collaboratif avec suivi de projets et notifications</p>
+                        <div class="tags">
+                            <span>Angular</span>
+                            <span>NestJS</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=600&h=400&fit=crop" alt="Projet 6">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Platform</h3>
+                        <p>Plateforme de blogging avec éditeur markdown et système de commentaires</p>
+                        <div class="tags">
+                            <span>Gatsby</span>
+                            <span>Contentful</span>
+                            <span>Netlify</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML5 / CSS3</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript / ES6+</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Vue.js</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Back-End</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 87%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Express.js</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python / Django</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PHP / Laravel</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Bases de données</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Firebase</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 78%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Outils & Autres</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Git / GitHub</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 92%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CI/CD</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Figma / Adobe XD</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Je suis toujours ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter !</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hassansougue2@gmail.com  bryan24boboe@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+225 05 00 52 54 80 / +229 97 67 27 42</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Abidjan, Côte d'Ivoire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://w.me/2250500525480" class="social-link">WhatsApp</a>
+                        <a href="https://www.facebook.com/profile.php?id=61584302369081" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/s5h0b?igsh=YzljYTk1ODg3Zg==" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+    <div class="form-group">
+        <input type="text" name="from_name" placeholder="Votre nom" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="reply_to" placeholder="Votre email" required>
+    </div>
+    <div class="form-group">
+        <input type="text" name="subject" placeholder="Sujet">
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn-primary">Envoyer le message</button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 H&H - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
